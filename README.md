@@ -1,5 +1,7 @@
 # E-Commerce Frontend Design
 
+**🔗 [Live Demo](https://Awais11332.github.io/ecommerce-frontend-design2/)**
+
 This project is a pixel-perfect, desktop-only e-commerce website based on Figma designs. It was developed as part of a frontend development project.
 
 ## Project Structure
