@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Products | Aura eCommerce</title>
+  <meta name="description" content="Browse our collection of premium products.">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span>AURA</span>
+      </a>
+      
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="#">Categories</a>
+        <a href="#">About</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="search-container">
+          <span class="search-icon">🔍</span>
+          <input type="text" class="search-input" placeholder="Search...">
+        </div>
+        <a href="#" class="cart-icon" aria-label="Shopping Cart">
+          🛒
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <h1>All Products</h1>
+      <p>Discover our curated collection of premium essentials.</p>
+    </div>
+  </div>
+
+  <!-- Products Section -->
+  <section class="section product-listing">
+    <div class="container">
+      
+      <!-- Filters -->
+      <div class="filters-bar">
+        <div>
+          Showing 1-8 of 36 products
+        </div>
+        <div style="display: flex; gap: 1rem;">
+          <select class="filter-select" aria-label="Sort By">
+            <option>Sort by: Featured</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+            <option>Newest Arrivals</option>
+          </select>
+          <select class="filter-select" aria-label="Category">
+            <option>Category: All</option>
+            <option>Fashion</option>
+            <option>Electronics</option>
+            <option>Lifestyle</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <a href="product-details.html">
+            <div class="product-image">
+              <span class="product-badge">New</span>
+              <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=600" alt="Premium Smart Watch">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Electronics</div>
+              <h3 class="product-title">Premium Smart Watch</h3>
+              <div class="product-price">$299.00</div>
+              <button class="btn btn-primary" onclick="event.preventDefault(); window.location.href='product-details.html'">Buy Now</button>
+            </div>
+          </a>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <a href="product-details.html">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&q=80&w=600" alt="Classic Sneakers">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Fashion</div>
+              <h3 class="product-title">Classic Urban Sneakers</h3>
+              <div class="product-price">$120.00</div>
+              <button class="btn btn-primary" onclick="event.preventDefault(); window.location.href='product-details.html'">Buy Now</button>
+            </div>
+          </a>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <a href="product-details.html">
+            <div class="product-image">
+              <span class="product-badge" style="background: #e11d48;">Sale</span>
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=600" alt="Wireless Headphones">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Electronics</div>
+              <h3 class="product-title">Noise Cancelling Headphones</h3>
+              <div class="product-price">$199.00 <span style="text-decoration: line-through; color: var(--text-secondary); font-size: 0.9rem; margin-left: 0.5rem;">$249.00</span></div>
+              <button class="btn btn-primary" onclick="event.preventDefault(); window.location.href='product-details.html'">Buy Now</button>
+            </div>
+          </a>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <a href="product-details.html">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=600" alt="Running Shoes">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Fashion</div>
+              <h3 class="product-title">Performance Running Shoes</h3>
+              <div class="product-price">$145.00</div>
+              <button class="btn btn-primary" onclick="event.preventDefault(); window.location.href='product-details.html'">Buy Now</button>
+            </div>
+          </a>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+          <a href="product-details.html">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&q=80&w=600" alt="Polaroid Camera">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Lifestyle</div>
+              <h3 class="product-title">Vintage Polaroid Camera</h3>
+              <div class="product-price">$89.00</div>
+              <button class="btn btn-primary" onclick="event.preventDefault(); window.location.href='product-details.html'">Buy Now</button>
+            </div>
+          </a>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+          <a href="product-details.html">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1584916201218-f4242ceb4809?auto=format&fit=crop&q=80&w=600" alt="Skincare Set">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Lifestyle</div>
+              <h3 class="product-title">Organic Skincare Set</h3>
+              <div class="product-price">$65.00</div>
+              <button class="btn btn-primary" onclick="event.preventDefault(); window.location.href='product-details.html'">Buy Now</button>
+            </div>
+          </a>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card">
+          <a href="product-details.html">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1527814050087-379381547996?auto=format&fit=crop&q=80&w=600" alt="Mechanical Keyboard">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Electronics</div>
+              <h3 class="product-title">Pro Mechanical Keyboard</h3>
+              <div class="product-price">$159.00</div>
+              <button class="btn btn-primary" onclick="event.preventDefault(); window.location.href='product-details.html'">Buy Now</button>
+            </div>
+          </a>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card">
+          <a href="product-details.html">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=600" alt="Leather Backpack">
+            </div>
+            <div class="product-info">
+              <div class="product-category">Fashion</div>
+              <h3 class="product-title">Genuine Leather Backpack</h3>
+              <div class="product-price">$185.00</div>
+              <button class="btn btn-primary" onclick="event.preventDefault(); window.location.href='product-details.html'">Buy Now</button>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination">
+        <button class="page-link">&lt;</button>
+        <button class="page-link active">1</button>
+        <button class="page-link">2</button>
+        <button class="page-link">3</button>
+        <button class="page-link">...</button>
+        <button class="page-link">&gt;</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="margin-bottom: 1.5rem; display: inline-flex;">
+            <span>AURA</span>
+          </a>
+          <p>Premium quality products tailored for your modern lifestyle. We believe in design, function, and aesthetics.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Twitter">X</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul class="footer-links">
+            <li><a href="products.html">All Products</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Featured</a></li>
+            <li><a href="#">Discounts</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Enter your email address" aria-label="Email Address">
+            <button class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Aura eCommerce. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
